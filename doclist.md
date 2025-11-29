@@ -1,0 +1,17 @@
+business_case
+feature_spec
+technical_approach
+success_metrics
+business_case_critique
+technical_feasibility_assessment
+risk_register
+non_functional_requirements
+dependency_map
+product_requirements
+system_architecture
+tech_stack
+technical_requirements
+master_plan
+milestone_schema
+actionable_checklist
+advisor_recommendations
