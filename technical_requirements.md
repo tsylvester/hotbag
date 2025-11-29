@@ -212,11 +212,21 @@ UI Options:
 
 # **5. System Components & Interfaces**
 
-## **5.1 Frontend**
+## **5.1 API**
+
+* Public API surface
+* Auth and anon
+* Policy-based differentiation
+* Explicit tiering 
+* Shared functional endpoints with user-class-specific operational constraints
+
+## **5.2 Frontend**
 
 ### Technologies:
 
-* JS framework of choice (React recommended)
+* Nextjs
+* Shadcn components
+* Monorepo divided into api, store, types, utils, front end, back end
 * Map plugin SDK
 * Charting library for optional graphs
 
@@ -228,7 +238,7 @@ UI Options:
 
 ---
 
-## **5.2 Backend**
+## **5.3 Backend**
 
 ### Services:
 
@@ -319,13 +329,15 @@ Ambient temp may vary along route (Tier 2 interpolation).
 
 # **8. Deployment & DevOps**
 
-* Cloud-hosted backend (AWS, GCP, Azure)
+* Cloud-hosted backend (Supabase + Netlify)
 * CI/CD for both frontend and backend
-* Automated tests for:
+* Automated unit tests for every file:
 
   * Routing adapter
   * Weather adapter
   * Thermal model
+
+* Automated integration tests for component integration boundaries. 
 
 ---
 
